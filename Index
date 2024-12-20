@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sniggy - Gucci DJ Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #1a1a1a, #333333);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .button-container {
+            margin-top: 30px;
+        }
+        .button-container a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+        .button-container img {
+            border: none;
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .button-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sniggy - Gucci (Exclusive DJ Links)</h1>
+    <p>Brought to you by Bravo Productions. Click below to access the track!</p>
+    
+    <div class="button-container">
+        <!-- iTunes Link -->
+        <a href="http://itunes.apple.com/album/id1785230092?ls=1&app=itunes" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/ITunes_logo.svg" alt="Download on iTunes">
+        </a>
+        
+        <!-- iTunes Alternate Link -->
+        <a href="http://itunes.apple.com/album/id/1785230092" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/ITunes_logo.svg" alt="Stream on iTunes">
+        </a>
+        
+        <!-- Spotify Link -->
+        <a href="https://open.spotify.com/album/6OQV1RXPrRS8lAULGDQ6vh" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Listen on Spotify">
+        </a>
+        
+        <!-- Dropbox Link -->
+        <a href="https://www.dropbox.com/scl/fi/0m09mta17ufkez22583iw/Sniggy-Gucci-Bravo-Productions.mp3?rlkey=z1srv15wbul5ss3fczi9c7kw9&st=dq87labc&dl=0" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Dropbox_Icon.svg" alt="Download MP3">
+        </a>
+    </div>
+</body>
+</html>
